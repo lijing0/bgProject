@@ -1,0 +1,388 @@
+@import"reset.css";
+@import"public.css";
+body{
+    background-color: #f1f1f1;
+}
+.container{
+    width: 7.5rem;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+.wrap{
+    width: 7.1rem;
+    margin: 0 auto;
+}
+// 小U商城头部搜索
+.header{
+    height: .88rem;
+    line-height: .88rem;
+    background-color: #fff;
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1{
+        img{
+            width: 1.47rem;
+            height: .33rem;
+        }
+    }
+    input{
+        width: 3rem;
+        height: .4rem;
+        background-color: #eee;
+        border-radius: .04rem;
+        text-align: center;
+        font-size: .18rem;
+    }
+    .points{
+        span{
+            float: left;
+            margin-left: .1rem;
+            width: .13rem;
+            height: .13rem;
+            background-color: #000;
+            border-radius: 50%;
+        }
+    }
+}
+// 头部导航栏
+.nav{
+    background-color: #fff;
+    height: .8rem;
+    line-height: .8rem;
+    .wrap{
+        overflow: hidden;
+        position: relative;
+    }
+    ul{
+        width: 20rem;
+        li{
+            float: left;
+            font-size: .28rem;
+            padding:0 .19rem;
+            a{
+                color: #202020;
+                padding: 0 .19rem;
+            }
+            &.first{
+                position: relative;
+                a{  
+                    color: #e40033;
+                    border-right: 1px solid #f1f1f1;
+                }
+                &::after{
+                    position: absolute;
+                    bottom: 0;
+                    left: .19rem;
+                    content: '';
+                    width: calc(100% - .38rem);
+                    height: .04rem;
+                    background-color: #e40033;
+                }
+               
+            }
+        }
+    }
+    .arrow{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-left: .2rem;
+        background-color: #fff;
+        img{
+            width: .35rem;
+            height: .21rem;
+        }
+    }
+}
+// 头部广告图
+.banner{
+    position: relative;
+    height: 2.91rem;
+    a{
+        position: absolute;
+        top: 0;
+        left: 0;
+        img{
+            width: 7.5rem;
+            height: 2.91rem;
+        }
+    }
+}
+// 分类导航栏
+.icon-nav{
+    background-color: #fff;
+    height: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .item{
+        font-size: .24rem;
+        text-align: center;
+        img{
+            width: .64rem;
+            height: .62rem;
+            margin-bottom: .28rem;
+        }
+        a{
+            color: #595959;
+        }
+    }
+}
+// 限时秒杀，品牌上新
+.sale{
+    height: 3.8rem;
+    // background-color: #fff;
+    margin-top: .3rem;
+    display: flex;
+    justify-content: space-between;
+    h3{
+        font-size: .3rem;
+        color: #ff064f;
+        letter-spacing: .04rem;
+        margin-top: .16rem;
+    }
+    .des{
+        font-size: .22rem;
+        color: #999;
+        margin: .07rem;
+    }
+    .left{
+        position: relative;
+        width: 3.77rem;
+        height: 3.8rem;
+        padding-left: .16rem;
+        box-sizing: border-box;
+        background-color: #fff;
+        h3{  
+            img{
+                width: .33rem;
+                height: .31rem;
+                margin-right: .1rem;
+                vertical-align: -.06rem;
+            }
+        }   
+        .time{
+            font-size: .26rem;
+            span{
+                display: inline-block;
+                background-color: #333;
+                color: #fff;
+                line-height: .42rem;
+                padding: 0 .09rem;
+                border-radius: .05rem;
+                margin: 0 .04rem;
+            }
+            i{
+                display: inline-block;
+                line-height: .41rem;
+                color: #333;
+                padding: 0 .25rem 0 .21rem;
+                background: url(../images/index_images/bg.jpg) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+        .pic{
+            display: block;
+            width: 2.36rem;
+            height: 2rem;
+            margin: .18rem auto 0;
+        }
+        .price{
+            position: absolute;
+            right: .3rem;
+            bottom: .3rem;
+            width: .88rem;
+            height: .88rem;
+            border-radius: 50%;
+            background-color: #ff064f;
+            color: #fff;
+            font-size: .16rem;
+            line-height: .88rem;
+            text-align: center;
+            span{
+                font-size: .24rem;
+            }
+        }
+    }
+    .right{
+        width: 3.72rem;
+        height: 3.8rem;
+        box-sizing: border-box;
+        p{
+            margin-left: 0;
+        }
+        .top{
+            width: 3.72rem;
+            height: 1.88rem;
+            display: flex;     
+            align-content: flex-start;
+            background-color: #fff;
+            .top-left{
+                padding-left: .16rem;
+                h3{
+                    span{
+                        display: inline-block;
+                        width: .32rem;
+                        height: .25rem;
+                        line-height: .25rem;
+                        background-color: #ff064f;
+                        text-align: center;
+                        font-size: .2rem;
+                        border-radius: .03rem;
+                        color: #fff;
+                        margin-left: .08rem;
+                        vertical-align: .04rem;
+                    }
+                   
+                }
+                img{
+                    width: .93rem;
+                    height: .32rem;
+                    margin-top: .3rem;
+                }
+            } 
+        }
+        .top-right{
+            width: 1.28rem;
+            height: 1.78rem;
+            margin-top: .08rem;
+            margin-left: .2rem;
+        }
+        .bottom{
+            display: flex;   
+            width: 3.72rem;
+            height: 1.9rem;
+            margin-top: .02rem;
+            .left{
+                width: 1.85rem;
+                height: 1.9rem;
+                background-color: #fff;
+                img{
+                    width: .64rem;
+                    height: 1.02rem;
+                    margin-left: .4rem;
+                }
+            }
+            .right{
+                width: 1.85rem;
+                height: 1.9rem;
+                background-color: #fff;
+                padding-left: .16rem;
+                margin-left: 2px;  
+                img{
+                    width: 1.04rem;
+                    height: .88rem;
+                    margin-left: .2rem;
+                    margin-top: .1rem;
+                }
+            }
+        }
+    }
+}
+// 中间广告图
+.bar{
+    margin-top: .3rem;
+    img{
+        width: 7.5rem;
+        height: 1.87rem;
+    }
+}
+// 热门推荐，发现好货，只看专场，只看商品
+.recommend{
+    width: 7.5rem;
+    height: 10.5rem;
+    background-color: #fff;
+    margin-top: .3rem;
+    .wrap{
+        width: 7.1rem;
+        height: 10.5rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    // 商品推荐导航栏
+    .rec-nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: .2rem;
+        width: 7.1rem;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        font-size: .28rem;
+        border: 1px solid #eee;
+        box-sizing: border-box;
+        li{
+            border-right: 1px solid #eee;
+            a{
+                color: #333;
+                padding: 0 .3rem;
+            }
+            &.active{
+                background-color: #f26b11;
+                a{
+                    color: #fff;
+                }
+            }
+            &.last{
+                border-right: none;
+            }
+        }
+        
+    }
+    .content{
+        width: 7.1rem;
+        height: 9.90rem;
+        box-sizing: border-box;
+        .goods{
+            width: 7rem;
+            height: 3rem;
+            box-shadow: 0 0 .05rem #999;
+            margin: .17rem auto;
+            a{
+                img{
+                    float: left;
+                    width: 2.16rem;
+                    height: 2.2rem;
+                    margin-left: .38rem;
+                    margin-top: .4rem;
+                }
+                .txt-right{
+                    float: left;
+                    margin-left: .4rem;
+                    .txt{
+                        font-size: .3rem;
+                        line-height: .6rem;
+                        color: #333;
+                        margin-top: .3rem;
+                    }
+                    .price{
+                        font-size: .18rem;
+                        color: #e40033;
+                        span{
+                            font-size: .24rem;
+                            line-height: .48rem;
+                        }
+                    }
+                    .sell{
+                        font-size: .20rem;
+                        line-height: .40rem;
+                        color: #999;
+                    }
+                    .buy{
+                       width: 1.64rem; 
+                       height: .52rem;
+                       background-color: #f26b11;
+                       color: #fff;
+                       font-size: .22rem;
+                       line-height: .52rem;
+                       text-align: center;
+                       border-radius: .05rem;
+                       margin-top: .15rem;
+                    }
+                }
+            }
+        }
+    }
+}

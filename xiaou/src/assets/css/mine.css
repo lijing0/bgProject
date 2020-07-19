@@ -1,0 +1,123 @@
+@import "reset.css";
+@import "public.css";
+main {
+  width: 7.5rem;
+  height: 10.86rem;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+.msg {
+  width: 7.5rem;
+  height: 2.04rem;
+  background-color: #f26b11;
+  overflow: hidden;
+}
+.msg .pic {
+  float: left;
+  width: 1.52rem;
+  height: 1.52rem;
+  margin-left: 0.1rem;
+  margin-top: 0.28rem;
+  line-height: 2.04rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 0.05rem solid #fff;
+  background: url(../images/mine_images/head.jpg) no-repeat center;
+  background-size: 1.52rem 1.52rem;
+}
+.msg .mine-msg {
+  float: left;
+  margin-left: 0.26rem;
+  width: 1.9rem;
+  height: 1.52rem;
+}
+.msg .mine-msg .name {
+  margin-top: 0.72rem;
+  font-size: 0.28rem;
+  color: #fff;
+}
+.msg .mine-msg .num {
+  margin-top: 0.24rem;
+  font-size: 0.2rem;
+  color: #333;
+}
+.msg .right {
+  float: right;
+  margin-right: 0.38rem;
+  margin-top: 0.74rem;
+  width: 1.6rem;
+  height: 0.7rem;
+  font-size: 0.24rem;
+  color: #f26b11;
+  line-height: 0.7rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0.05rem;
+}
+.pro-list {
+  display: flex;
+  justify-content: space-around;
+  width: 7.5rem;
+  height: 1.42rem;
+  background-color: #fff;
+}
+.pro-list li {
+  width: 1.5rem;
+  height: 1.42rem;
+  text-align: center;
+}
+.pro-list li a img {
+  margin-top: 0.35rem;
+  width: 0.34rem;
+  height: 0.34rem;
+}
+.pro-list li a p {
+  margin-top: 0.2rem;
+  font-size: 0.22rem;
+  color: #666;
+}
+.list {
+  margin-top: 0.2rem;
+  width: 7.5rem;
+  height: 7.2rem;
+  background-color: #fff;
+}
+.list li {
+  font-size: 0.26rem;
+  width: 7.5rem;
+  height: 1.11rem;
+  line-height: 1.11rem;
+  border-bottom: 1px solid #eee;
+}
+.list li a {
+  display: block;
+  width: 7.5rem;
+  height: 1.11rem;
+  color: #666;
+}
+.list li a img {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.list li a .pic-icon {
+  margin-top: 0.4rem;
+  float: left;
+  margin-left: 0.36rem;
+}
+.list li a span {
+  float: left;
+  margin-left: 0.24rem;
+}
+.list li a .pic-right {
+  margin-top: 0.44rem;
+  float: right;
+  margin-right: 0.36rem;
+  width: 0.19rem;
+  height: 0.26rem;
+}
+.list li a i {
+  margin-left: 3.9rem;
+  font-size: 0.22rem;
+  line-height: 1.11rem;
+  color: #f26b11;
+}
