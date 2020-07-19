@@ -1,0 +1,292 @@
+@import"reset.css";
+@import"public.css";
+// 商品详情
+main{
+    width: 7.5rem;
+    height: 45.9rem;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    section{
+        background-color: #fff;
+        margin-bottom: .17rem;
+    }
+    // 商品标题与价格
+    .section01{
+        width: 7.5rem;
+        height: 9.54rem;
+        box-sizing: border-box;
+        .pic1{
+            width: 7.5rem;
+            height: 4.2rem;
+        }
+        .pic2{
+            width: 7.5rem;
+            height: 3.27rem;
+        }
+        .tit{
+            font-size: .3rem;
+            line-height: .5rem;
+            color: #333;
+            padding: .22rem .4rem 0;
+        }
+        .price{
+            font-size: .24rem;
+            line-height: .78rem;
+            padding-bottom: .08rem;
+            padding-left: .4rem;
+            color: #e43a3d;
+            span{
+                font-size: .2rem;
+                color: #999;
+            }
+        }
+    }
+    // 商品数量及属性
+    .section02{
+        width: 7.5rem;
+        height: 3.98rem;
+        box-sizing: border-box;
+        padding-left: .25rem;
+        p{
+            font-size: .24rem;
+            color: #666;
+            line-height: .98rem;
+            border-bottom: 1px solid #eee;
+            img{
+                width: .35rem;
+                height: .21rem;
+            }
+        }
+        .sale{   
+            span{
+                display: inline-block;
+                width: .66rem;
+                height: .37rem;
+                border: 1px solid #b0281a;
+                border-radius: .05rem;
+                font-size: .2rem;
+                color: #b0281a;
+                line-height: .35rem;
+                text-align: center;
+                margin: 0 .15rem;
+            }
+            img{
+                margin-left: 3.02rem;
+            }
+            
+        }
+        .count{
+            span{
+                position: relative;
+                top: .2rem;
+                display: inline-block;
+                margin-left: 3.8rem;
+                width: 2.12rem;
+                height: .6rem;
+                border: 1px solid #333;
+                border-radius: .05rem;
+                a{
+                    position: absolute;
+                    display: inline-block;
+                    width: .64rem;
+                    height: .59rem;
+                    line-height: .59rem;
+                    font-size: .36rem;
+                    color: #666;
+                    text-align: center;
+                }
+                .a1{
+                    top: 0;
+                    left: 0;
+                }
+                .a2{
+                    top: 0;
+                    left: 1.43rem;
+                }
+                input{
+                    position: absolute;
+                    top: 0;
+                    left: .64rem;
+                    width: .79rem;
+                    height: .6rem;
+                    font-size: .2rem;
+                    text-align: center;
+                    border-left: 1px solid #333;
+                    border-right: 1px solid #333;
+                }
+            }
+        }
+        .weight{
+            p{
+                border: none;
+                img{
+                    margin-left: 5.72rem;
+                }
+            }
+            div{
+                font-size: .24rem;
+                color: #999;
+                line-height: .6rem;
+                a{
+                    color: #fff;
+                    line-height: .6rem;
+                    background-color: #ddd;
+                    padding:.1rem .4rem ;
+                    margin-right: .15rem;
+                    border-radius: .05rem;
+                    &.first{
+                        margin-left: .7rem;
+                    }
+                    &.active{
+                        background-color: #e43a3d;
+                    }
+                }
+            }
+        }
+    }
+    // 商品详情
+    .section03{
+        width: 7.5rem;
+        height: 25.8rem;
+        h3{
+            width: 7.5rem;
+            height: 1rem;
+            line-height: 1rem;
+            font-size: .3rem;
+            color: #666;
+            padding-left: .25rem;
+            box-sizing: border-box;
+        }
+        .pic3{
+            width: 7.5rem;
+            height: 4.58rem;
+        }
+        .pic4{
+            width: 7.5rem;
+            height: 6.48rem;
+        }
+        .pic5{
+            width: 7.5rem;
+            height: 5.92rem;
+        }
+        .pic6{
+            width: 7.5rem;
+            height: 3.5rem;
+        }
+        .pic7{
+            width: 7.5rem;
+            height: 3.31rem;
+        }
+    }
+    // 商品评价
+    .section04{
+        width: 7.5rem;
+        height: 5.63rem;
+        margin-bottom: 0;
+        .assess{
+            width: 7.02rem;
+            height: 5.63rem;
+            margin: 0 auto;
+            h3{
+                font-size: .3rem;
+                color: #666;
+                line-height: .93rem;
+                border-bottom: 1px solid #eee;
+            }
+            .num{
+                font-size: .2rem;
+                line-height: .68rem;
+                color: #999;
+            }
+            .nice{
+                font-size: .26rem;
+                line-height: .58rem;
+                color: #666;
+                margin-bottom: .17rem;
+            }
+            .list{
+                li{
+                    float: left;
+                    img{
+                        width: 1.55rem;
+                        height: 1.55rem;
+                        margin: 0 .05rem;
+                    }
+                }
+            }
+            time{
+                display: inline-block;
+                width: 7.02rem;
+                height: .8rem;
+               font-size: .2rem; 
+               color: #999;
+               line-height: .8rem;
+               border-bottom: 1px solid #eee;
+            }
+            .more{
+                font-size: .2rem; 
+                color: #999;
+                line-height: .8rem;
+                span{
+                    margin-left: 4.1rem;
+                }
+                i{
+                    position: relative;
+                    display: inline-block;
+                    width: 0;
+                    height: 0;
+                    border: .06rem solid #666;
+                    border-color: transparent transparent transparent #666;
+                    margin-left: .1rem;
+                    &::after{
+                        position: absolute;
+                        top: -.06rem;
+                        left: -.08rem;
+                        content: '';
+                        display: inline-block;
+                        width: 0;
+                        height: 0;
+                        border: .06rem solid #fff;
+                        border-color: transparent transparent transparent #fff;
+                    }
+                }
+            }
+        }
+    }
+    .section05{
+        .left{
+            float: left;
+            width: 1.72rem;
+            height: 1.13rem;
+            text-align: center;
+            border-top: 1px solid #eee;
+            img{
+                width: .57rem;
+                height: .51rem;
+                margin-top: .18rem;
+            }
+            p{
+                margin-top: .12rem;
+               font-size: .18rem; 
+               color: #666;
+            }
+        }
+        .right{
+            input{
+                width: 2.89rem;
+                height: 1.15rem;
+                font-size: .3rem;
+                color: #fff;
+                background-color: #e43a3d;
+                &[type=button]{
+                    float: left;
+                    background-color: #f26b11;
+                }
+                &[type=submit]{
+                    float: right;
+                }
+            }
+            
+        }
+    }
+}
