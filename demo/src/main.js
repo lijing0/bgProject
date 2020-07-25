@@ -13,11 +13,14 @@ import './assets/css/reset.css'
 //引入 axios
 /* import axios from 'axios'
 Vue.prototype.$http = axios */
+<<<<<<< HEAD
 //设定一个服务器地址用于文件上传
 Vue.prototype.$imgUrl = 'http://localhost:3000'
 //全局引入 echart
 /* import echart from 'echarts'
 Vue.prototype.$echart = echart */
+=======
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 
 Vue.use(ElementUI)
 

@@ -17,11 +17,14 @@ export default {
     },
     reqGoodsList(state,payload){
         state.goodsList = payload
+<<<<<<< HEAD
     },
     reqSeckList(state,payload){
         state.seckList = payload
     },
     reqBannerList(state, payload) {
       state.bannerList = payload
+=======
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
     }
 }

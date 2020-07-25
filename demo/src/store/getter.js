@@ -22,6 +22,7 @@ export default {
     //商品管理
     getStateGoodsList(state){
         return state.goodsList
+<<<<<<< HEAD
     },
     //秒杀
     getStateSeckList(state){
@@ -31,4 +32,7 @@ export default {
     getStateBannerList(state) {
       return state.bannerList
     },
+=======
+    }
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 }

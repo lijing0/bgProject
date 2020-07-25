@@ -3,7 +3,11 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
+<<<<<<< HEAD
 const router = new Router({
+=======
+export default new Router({
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
   //路由模式
   mode: 'history',
   routes: [{
@@ -30,8 +34,13 @@ const router = new Router({
         {
           path: '/goods',
           component: () => import('@/pages/goods/goods'),
+<<<<<<< HEAD
           meta: {
             name: '商品管理'
+=======
+          meta:{
+              name:'商品管理'
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
           }
         }, {
           path: '/home',
@@ -45,6 +54,7 @@ const router = new Router({
           }
         },
         {
+<<<<<<< HEAD
           path: '/sort',
           component: () => import('@/components/views/sort'),
           meta: {
@@ -83,10 +93,47 @@ const router = new Router({
           path: '',
           redirect: '/home'
         }
+=======
+            path: '/sort',
+            component: () => import('@/components/views/sort'),
+            meta: {
+              name: '商品分类'
+            }
+          },
+          {
+            path: '/specs',
+            component: () => import('@/components/views/specs'),
+            meta: {
+              name: '商品规格'
+            }
+          },
+          {
+            path: '/member',
+            component: () => import('@/pages/member/member'),
+            meta:{
+                name:'会员管理'
+            }
+          },
+          {
+            path: '/banner',
+            component: () => import('@/pages/banner/banner'),
+            meta:{
+                name:'轮播图管理'
+            }
+          },
+          {
+            path: '/seck',
+            component: () => import('@/pages/seck/seck'),
+            meta:{
+                name:'限时秒杀管理'
+            }
+          },
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
       ]
     },
     {
       path: '*',
+<<<<<<< HEAD
       redirect: '/index'
     }
   ]
@@ -109,3 +156,9 @@ router.beforeEach((to, from, next) => {
 })
 
 export default router
+=======
+      redirect: '/login'
+    }
+  ]
+})
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883

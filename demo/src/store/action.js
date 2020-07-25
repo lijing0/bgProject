@@ -4,9 +4,13 @@ import {
   getuserList,
   getcateList,
   getspecsList,
+<<<<<<< HEAD
   getgoodsList,
   getseckList,
   getbannerList
+=======
+  getgoodsList
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 } from '../util/axios'
 
 export default {
@@ -87,6 +91,7 @@ export default {
         }
       })
   },
+<<<<<<< HEAD
     //封装一个获取秒杀列表
     getActionSeckList({
         commit
@@ -109,4 +114,6 @@ export default {
              }
            })
        },
+=======
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 }

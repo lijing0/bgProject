@@ -1,9 +1,12 @@
 //引入axios http库
 import axios from 'axios'
+<<<<<<< HEAD
 //引入 message组件
 import {Message} from 'element-ui'
 //引入路由模块
 import router from '../../router'
+=======
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 
 //重新创建自定义实例
 //我可以给AXIOS实例添加很多自定义的属性
@@ -24,6 +27,7 @@ http.interceptors.request.use((config)=>{
 //响应拦截
 http.interceptors.response.use((res)=>{
     console.log(res.data,'响应全局')
+<<<<<<< HEAD
     //一般工作的时候 token 失效作为特殊的拦截，会暴露特殊的code值 3000
     //再响应拦截中 我们会拦截很多全局性错误代码
     if(res.data.code ==403){
@@ -31,6 +35,8 @@ http.interceptors.response.use((res)=>{
         //如果token失效就返回登录页面
         router.push('/login')
     }
+=======
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
     //全局拦截错误
     return res
 })

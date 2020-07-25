@@ -1,11 +1,15 @@
 <template>
     <div>
         <h1>欢迎光临本系统</h1>
+<<<<<<< HEAD
         <div id="container"></div>
+=======
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
     </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 //引入核心库
 import eChart from 'echarts'
 export default {
@@ -44,4 +48,17 @@ export default {
     width: 900px;
     height: 600px;
 }
+=======
+export default {
+    data() {
+        return {
+
+        };
+    },
+};
+</script>
+
+<style  lang="" scoped>
+
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 </style>

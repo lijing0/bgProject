@@ -23,7 +23,11 @@
                         <i class="el-icon-menu"></i>
                         <span slot="title">首页</span>
                     </el-menu-item>
+<<<<<<< HEAD
                     <el-submenu v-for='item in navMenu' :key='item.id' :index="item.id.toString()">
+=======
+                    <el-submenu v-for='item in getStateMenuList' :key='item.id' :index="item.id.toString()">
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
                         <template slot="title">
                             <i :class="item.icon"></i>
                             <span>{{item.title}}</span>
@@ -46,6 +50,7 @@ export default {
         }
     },
     computed: {
+<<<<<<< HEAD
         //...mapGetters(['getStateMenuList'])
         navMenu(){
             let data = {} 
@@ -53,16 +58,26 @@ export default {
 
             return data.menus
         }
+=======
+        ...mapGetters(['getStateMenuList'])
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
     },
     mounted() {
         //组件挂载,更改选中的默认值
         //把路由地址赋值给默认选中状态
         this.defaultActive = this.$route.path
         //页面一加载就调取菜单列表
+<<<<<<< HEAD
         //this.getActionMenuList()
     },
     methods: {
        // ...mapActions(['getActionMenuList'])
+=======
+        this.getActionMenuList()
+    },
+    methods: {
+        ...mapActions(['getActionMenuList'])
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
     },
 }
 </script>

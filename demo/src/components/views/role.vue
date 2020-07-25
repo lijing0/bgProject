@@ -49,7 +49,10 @@
                         ref="tree"
                         :props="defaultProps"
                         :default-checked-keys="defaultKey"
+<<<<<<< HEAD
                         check-strictly
+=======
+>>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
                     ></el-tree>
                 </el-form-item>
                 <el-form-item label="状态：" :label-width="formLabelWidth">
