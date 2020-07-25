@@ -1,7 +1,6 @@
 <template>
     <div>
         <el-container>
-<<<<<<< HEAD
             <el-header>
                 XXX大型后台管理项目
                 <div class="info">
@@ -11,9 +10,7 @@
                     <el-button type='danger' @click='logOut' size='small'>退出</el-button>
                 </div>
             </el-header>
-=======
             <el-header>XXX大型后台管理项目</el-header>
->>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
             <el-container>
                 <el-aside width="200px">
                     <v-nav></v-nav>
@@ -35,7 +32,6 @@ export default {
     },
     components:{
         vNav
-<<<<<<< HEAD
     },
     computed: {
         getName(){
@@ -52,9 +48,7 @@ export default {
             this.$router.push('/login')
         }
     },
-=======
     }
->>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 }
 </script>
 
@@ -67,7 +61,6 @@ export default {
     line-height 60px
     color  #fff
 }
-<<<<<<< HEAD
 .info 
     float right
     margin-right 20px 
@@ -75,7 +68,4 @@ export default {
         color #fff 
         float left
         margin-right 20px
-=======
-
->>>>>>> e690d598025a76903db44d1bd40be9cb7c928883
 </style>
